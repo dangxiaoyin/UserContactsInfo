@@ -14,6 +14,8 @@
 		A1B2BE431B85724000EE11A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2BE421B85724000EE11A7 /* Images.xcassets */; };
 		A1B2BE461B85724000EE11A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B2BE441B85724000EE11A7 /* LaunchScreen.xib */; };
 		A1B2BE521B85724100EE11A7 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B2BE511B85724100EE11A7 /* _______Tests.m */; };
+		A1B2BE5D1B85AA2E00EE11A7 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2BE5B1B85AA2E00EE11A7 /* AddressBook.framework */; };
+		A1B2BE5E1B85AA2E00EE11A7 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B2BE5C1B85AA2E00EE11A7 /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		A1B2BE4B1B85724100EE11A7 /* 获取联系人信息Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "获取联系人信息Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2BE501B85724100EE11A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B2BE511B85724100EE11A7 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		A1B2BE5B1B85AA2E00EE11A7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A1B2BE5C1B85AA2E00EE11A7 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B2BE5D1B85AA2E00EE11A7 /* AddressBook.framework in Frameworks */,
+				A1B2BE5E1B85AA2E00EE11A7 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,8 @@
 		A1B2BE291B85724000EE11A7 = {
 			isa = PBXGroup;
 			children = (
+				A1B2BE5B1B85AA2E00EE11A7 /* AddressBook.framework */,
+				A1B2BE5C1B85AA2E00EE11A7 /* AddressBookUI.framework */,
 				A1B2BE341B85724000EE11A7 /* 获取联系人信息 */,
 				A1B2BE4E1B85724100EE11A7 /* 获取联系人信息Tests */,
 				A1B2BE331B85724000EE11A7 /* Products */,
